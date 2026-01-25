@@ -1,0 +1,6 @@
+# Add __init__.py in login() fle and desktop() file before opening!
+from Definitions.login import login
+from Definitions.desktop import desktop
+
+username, password = login()
+desktop(username, password)
