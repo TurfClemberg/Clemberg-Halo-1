@@ -36,9 +36,9 @@ Clemberg_Halo_1/
 │   ├── __init__.py
 │   ├── login.py
 │   └── desktop.py
-```
 
-### File Roles
+
+File Roles
 
 | File          | Purpose                   |
 | ------------- | ------------------------- |
@@ -65,9 +65,9 @@ Just like real computers!
   * Pydroid 3 (mobile Python)
 No extra libraries needed.
 ## ▶ How to Run
-```bash
+bash
 python main.py
-``'
+
 ## 🚀 Future Plans (Clemberg Halo Roadmap)
 * GUI Desktop Interface
 * File Manager
@@ -85,6 +85,3 @@ Clemberg Halo is part of a bigger mission:
 ## 📜 License
 Open for educational use.
 Feel free to learn from it and improve it.
-⭐ A **logo idea**
-* 🖼 A **GitHub banner**
-* 📘 A **judg
