@@ -1,0 +1,40 @@
+
+def desktop (username, password):
+    # Main Desktop TUI
+    # Variables Used:
+    # username, password, cmd, resp, power
+    # Libraries Used:
+    # os
+    import os
+    if username == "Ankush" and password == "2013":
+        while True:
+            print("""Clemberg Halo 1
+==================================================================================================================================
+                                                           Desktop
+==================================================================================================================================
+
+[0] Power
+
+[1] Health Center
+
+[2] Calendar
+
+==================================================================================================================================
+""")
+            cmd = int(input("Choose: "))
+            if cmd == 1:
+                os.system("df -h")
+            elif cmd == 2:
+                os.system("ncal")
+            elif cmd == 0:
+                power = int(input("""Which option would you like to select?
+
+- [1] Shut Down the Operating System
+
+"""))
+                if power == 1:
+                    print("Shutting Down Clemberg Halo....")
+                    break
+            input("""
+Press Enter to Return Back to Desktop""")
+            os.system("clear")
